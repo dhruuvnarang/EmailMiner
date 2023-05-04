@@ -3,8 +3,16 @@
     "description": "Scrape emails from any web page",
     "version":"1.0",
     "manifest_version": 3,
-    "action":{
-        "default_popup":"popup.html"
-    } ,
+    "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "action": {
+    "default_icon": "icon128.png", 
+    "default_title": "Email Scraper Extension",
+    "default_popup": "popup.html"
+  },
     "permissions": ["activeTab", "scripting"]
+   
 }
